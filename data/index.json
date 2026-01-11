@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-11T11:11:09.605Z",
+  "generatedAt": "2026-01-11T11:27:09.088Z",
   "entries": [
     {
       "id": "c54bec0d4e029fe34926ef3258a86ccacc0d0182",
@@ -88,7 +88,7 @@
       "author": "twitter-team",
       "date": "2025-09-03T20:46:53Z",
       "userExplanation": "This affects content recommendations. You may see different posts suggested in your \"For You\" feed.",
-      "devExplanation": "Modifies the recommendation system. Updates the algorithm that suggests and ranks content for users.\n\n## Tags\n\n- recommendations\n- ranking\n- feed\n- safety\n- reply\n- repost\n- video\n- major-change",
+      "devExplanation": "Modifies the recommendation system. Updates the algorithm that suggests and ranks content for users.",
       "tags": [
         "recommendations",
         "ranking",
@@ -312,7 +312,7 @@
       "author": "twitter-team",
       "date": "2023-07-07T21:01:54Z",
       "userExplanation": "This is a documentation or configuration update. It does not affect how X's algorithm works or what you see in your feed.",
-      "devExplanation": "Test update. Modifies test files, test cases, or testing infrastructure.\n\n## Tags\n\n- feed\n- tests\n- ranking\n- safety\n- reply\n- repost\n- video\n- major-change",
+      "devExplanation": "Test update. Modifies test files, test cases, or testing infrastructure.",
       "tags": [
         "feed",
         "tests",
@@ -336,7 +336,7 @@
       "author": "twitter-team",
       "date": "2023-05-19T21:36:39Z",
       "userExplanation": "This update clarifies that Twitter's algorithm also powers notifications, potentially making them more relevant. It does not change what appears in For You timelines or how posts are ranked. The adjustments are documentation improvements that don't affect what users see or interact with.",
-      "devExplanation": "Updated main README.md to include Notifications in product surfaces and added tweetypie to data components table. Renamed pushservice/readme.md to README.md with standardized capitalization. Removed trailing periods in bullet points across pushservice documentation for consistency.\n\n## Tags\n\n- docs\n- engagement\n- feature",
+      "devExplanation": "Updated main README.md to include Notifications in product surfaces and added tweetypie to data components table. Renamed pushservice/readme.md to README.md with standardized capitalization. Removed trailing periods in bullet points across pushservice documentation for consistency.",
       "tags": [
         "docs",
         "engagement",
@@ -355,7 +355,7 @@
       "author": "twitter-team",
       "date": "2023-05-19T16:53:56Z",
       "userExplanation": "Open-sourcing pushservice, a main recommendation service at Twitter used to surface recommendations to users via notifications. This adds the pushservice-light-ranker and pushservice-heavy-ranker components to the .",
-      "devExplanation": "Added pushservice-light-ranker and pushservice-heavy-ranker components to the repository. These components are responsible for ranking tweets and predicting the probabilities that target users will open and engage with sent notifications.\n\n## Tags\n\n- post\n- reply\n- repost\n- article\n- video\n- ranking\n- engagement\n- safety\n- bug-fix\n- refactor\n- docs\n- infra",
+      "devExplanation": "Added pushservice-light-ranker and pushservice-heavy-ranker components to the repository. These components are responsible for ranking tweets and predicting the probabilities that target users will open and engage with sent notifications.",
       "tags": [
         "post",
         "reply",
@@ -393,7 +393,7 @@
       "author": "twitter-team",
       "date": "2023-05-12T16:11:38Z",
       "userExplanation": "The open-sourcing of Tweetypie will allow developers to contribute to the core Tweet service, improving the reading and writing of Tweet data. This change will enable more efficient and scalable processing of Tweet data, leading to better user outcomes. The open-sourcing of Tweetypie will also provide more transparency and collaboration within the Twitter product surface.",
-      "devExplanation": "The Tweetypie repository has been updated to include the AdditionalFields, CacheOperations, and CacheResult classes. These changes will allow for more efficient caching and serialization of Tweet data, improving the performance of the For You Timeline. The devExplanation section will be updated to reflect the changes made to the Tweetypie codebase.\n\n## Tags\n\n- post\n- reply\n- repost\n- article\n- video\n- ranking\n- engagement\n- safety\n- bug-fix\n- refactor\n- major-change",
+      "devExplanation": "The Tweetypie repository has been updated to include the AdditionalFields, CacheOperations, and CacheResult classes. These changes will allow for more efficient caching and serialization of Tweet data, improving the performance of the For You Timeline. The devExplanation section will be updated to reflect the changes made to the Tweetypie codebase.",
       "tags": [
         "post",
         "reply",
