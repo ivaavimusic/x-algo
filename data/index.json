@@ -1,1 +1,30 @@
-{"generatedAt":"2026-01-20T08:21:00.000Z","entries":[{"id":"aaa167b3de8a674587c53545a43c90eaad360010","kind":"commit","title":"Open-source X Recommendation Algorithm","author":"CI agent","date":"2026-01-20T02:31:49Z","userExplanation":"The For You feed now uses a machine learning model to personalize content based on your engagement history. Posts, replies, and videos you interact with influence recommendations more than manual rules. This may increase discovery of relevant out-of-network content while maintaining safety standards.","devExplanation":"Initial commit adds core recommendation pipeline with Rust implementation. Includes candidate retrieval (candidate_pipeline.rs), filtering (filter.rs), and Grok-based transformer scoring. The system combines Thunder (in-network) and Phoenix (out-of-network) sources through hydrator/scorer modules.","tags":["post","reply","repost","video","ranking","engagement","ml-model","infra","major-change"],"changeType":"major-change","filesChanged":79,"additions":8816,"deletions":0,"mdPath":"commits/2026-01-20-aaa167b.md"}]}
+{
+  "generatedAt": "2026-01-20T08:37:28.078Z",
+  "entries": [
+    {
+      "id": "aaa167b3de8a674587c53545a43c90eaad360010",
+      "kind": "commit",
+      "title": "Open-source X Recommendation Algorithm",
+      "author": "CI agent",
+      "date": "2026-01-20T02:31:49Z",
+      "userExplanation": "The For You feed now uses a machine learning model to personalize content based on your engagement history. Posts, replies, and videos you interact with influence recommendations more than manual rules. This may increase discovery of relevant out-of-network content while maintaining safety standards.",
+      "devExplanation": "Initial commit adds core recommendation pipeline with Rust implementation. Includes candidate retrieval (candidate_pipeline.rs), filtering (filter.rs), and Grok-based transformer scoring. The system combines Thunder (in-network) and Phoenix (out-of-network) sources through hydrator/scorer modules.",
+      "tags": [
+        "post",
+        "reply",
+        "repost",
+        "video",
+        "ranking",
+        "engagement",
+        "ml-model",
+        "infra",
+        "major-change"
+      ],
+      "changeType": "major-change",
+      "filesChanged": 79,
+      "additions": 8816,
+      "deletions": 0,
+      "mdPath": "commits/2026-01-20-aaa167b.md"
+    }
+  ]
+}
